@@ -8,7 +8,6 @@ SO THAT I can manage my time effectively
 
 ## Table of Contents
 * [Description](#description)
-* [Installation](#installation)
 * [Usage](#usage)
 * [Contact](#contact)
 
