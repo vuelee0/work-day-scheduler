@@ -58,8 +58,6 @@ $(document).ready(function() {
     $("#1500pm-hour .textarea").val(localStorage.getItem("1500pm-hour"));
     $("#1600pm-hour .textarea").val(localStorage.getItem("1600pm-hour"));
     $("#1700pm-hour .textarea").val(localStorage.getItem("1700pm-hour"));
-    $("#2200pm-hour .textarea").val(localStorage.getItem("2200pm-hour"));
-    $("#2300pm-hour .textarea").val(localStorage.getItem("2300pm-hour"));
 
 
     const todaysDate = moment().format("dddd, MMMM Do YYYY"); {
