@@ -17,7 +17,7 @@ $(document).ready(function() {
         }, 5000);
     });
   
-    function hourUpdater() {
+    function taskUpdate() {
 
         let currentTime = moment().hours();
 
@@ -25,10 +25,13 @@ $(document).ready(function() {
             let time = parseInt(
             $(this)
                 .attr("id")
-                .split("-")[1]
+                .split("0")
             );
+            console.log($(this).attr("id"));
+            console.log(currentTime);
+            console.log(time);
     
-              if (time < currentTime) {
+            if (time < currentTime) {
                 $(this).addClass("past");
             } 
             else if (time === currentTime) {
@@ -43,10 +46,10 @@ $(document).ready(function() {
         });
     }
   
-    hourUpdater();
+    taskUpdate();
   
     // set up interval to check if current time needs to be updated
-    let interval = setInterval(hourUpdater, 15000);
+    let interval = setInterval(taskUpdate, 15000);
 
 
     $("#900pm-hour .textarea").val(localStorage.getItem("900pm-hour"));
