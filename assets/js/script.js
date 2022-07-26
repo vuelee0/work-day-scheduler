@@ -1,8 +1,14 @@
-//  add event listener ti targeet button for save textarea content value
-
 const todaysDate = moment().format("dddd, MMMM Do YYYY"); {
     document.getElementById("currentDay").innerHTML = todaysDate;
 };
+
+
+//  add event listener to target button for save textarea content value
+$(".saveBtn").click(function () {
+    let time = $(this).parent().attr("id");
+    let value = $(this).siblings(".textarea").val();
+    localStorage.setItem(time, value);
+})
 
     
 // use moment to get current time, converting it to military time, 
