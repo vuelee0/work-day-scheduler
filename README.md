@@ -10,6 +10,8 @@ SO THAT I can manage my time effectively
 * [Description](#description)
 * [Usage](#usage)
 * [Contact](#contact)
+* [Deployed Application](#deployed-application)
+* [Screenshots](#screenshots)
 
 
 ## Usage
