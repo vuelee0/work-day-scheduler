@@ -20,6 +20,8 @@ For any questions about this project, contact me at:
 - Github: [vuelee0](https://github.com/vuelee0)
 - Email: vuelee09@gmail.com
 
-## Screenshots
+## Deployed Application
+https://vuelee0.github.io/work-day-scheduler/
 
+## Screenshots
 ![image](./assets/images/workdayss.png)
