@@ -8,10 +8,8 @@ $(document).ready(function() {
         // save in localStorage
         localStorage.setItem(key, value);
     
-      
         $(".alert").addClass("show");
-    
-
+        
         setTimeout(function() {
             $(".alert").removeClass("show");
         }, 5000);
@@ -27,9 +25,9 @@ $(document).ready(function() {
                 .attr("id")
                 .split("0")
             );
-            console.log($(this).attr("id"));
-            console.log(currentTime);
-            console.log(time);
+            // console.log($(this).attr("id"));
+            // console.log(currentTime);
+            // console.log(time);
     
             if (time < currentTime) {
                 $(this).addClass("past");
