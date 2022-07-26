@@ -75,3 +75,13 @@ textarea{
 .oi:empty:before {
   margin: 0 auto;
 }
+
+.show {
+  display: block;
+}
+
+.alert {
+  display: none;
+  padding-bottom: 10px;
+  color: black;
+}

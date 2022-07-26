@@ -23,6 +23,7 @@
     <title>Work Day Scheduler</title>
   </head>
 
+  <section class='text-center alert' id="alert">Appointment Added to localStorage</section>
 
   <body>
     <header class="jumbotron">
@@ -34,52 +35,63 @@
 
     <main class="container d-flex flex-column">
       <!-- Timeblocks go here -->
-      <div id="900-hrs" class="row">
+      <div id="900-hrs" class="row hourly-plan">
         <h5 class="col-1 hour">9AM</h5>
         <textarea class="col textarea"></textarea>
         <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1000-hrs" class="row">
+      <div id="1000-hrs" class="row hourly-plan">
         <h5 class="col-1 hour">10AM</h5>
         <textarea class="col textarea"></textarea>
         <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1100-hrs" class="row">
+      <div id="1100-hrs" class="row hourly-plan">
         <h5 class="col-1 hour">11AM</h5>
         <textarea class="col textarea"></textarea>
         <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1200-hrs" class="row">
+      <div id="1200-hrs" class="row hourly-plan">
           <h5 class="col-1 hour">12PM</h5>
           <textarea class="col textarea"></textarea>
           <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1300-hrs" class="row">
+      <div id="1300-hrs" class="row hourly-plan">
           <h5 class="col-1 hour">1PM</h5>
           <textarea class="col textarea"></textarea>
           <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1400-hrs" class="row">
+      <div id="1400-hrs" class="row hourly-plan">
           <h5 class="col-1 hour">2PM</h5>
           <textarea class="col textarea"></textarea>
           <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1500-hrs" class="row">
+      <div id="1500-hrs" class="row hourly-plan">
           <h5 class="col-1 hour">3PM</h5>
           <textarea class="col textarea"></textarea>
           <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1600-hrs" class="row">
+      <div id="1600-hrs" class="row hourly-plan">
           <h5 class="col-1 hour">4PM</h5>
           <textarea class="col textarea"></textarea>
           <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
-      <div id="1700-hrs" class="row">
+      <div id="1700-hrs" class="row hourly-plan">
           <h5 class="col-1 hour">5PM</h5>
           <textarea class="col textarea"></textarea>
           <button class="saveBtn oi oi-lock-locked col-1"></button>
       </div>
+      <div id="2200pm-hrs" class="row hourly-plan">
+        <h5 class="col-1 hour">10PM</h5>
+        <textarea class="col textarea"></textarea>
+        <button class="saveBtn oi oi-lock-locked col-1"></button>
+      </div>
+      <div id="2300pm-hrs" class="row hourly-plan">
+        <h5 class="col-1 hour">11PM</h5>
+        <textarea class="col textarea"></textarea>
+        <button class="saveBtn oi oi-lock-locked col-1"></button>
+      </div>
     </main>
+ 
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
